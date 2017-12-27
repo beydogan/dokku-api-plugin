@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -eo pipefail; [[ $DOKKU_TRACE ]] && set -x
+
+case "$1" in
+  api:install)
+    info "testing"
+    ;;
+  api:status)
+    info "status"
+  ;;
+esac

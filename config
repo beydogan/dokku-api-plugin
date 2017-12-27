@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+export DOKKU_API_REPO="https://github.com/beydogan/dokku-api-cr.git"
